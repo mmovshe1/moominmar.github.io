@@ -1,0 +1,27 @@
+html{
+  background-color: rgb(228, 208, 186);
+  color:black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+body{
+  /* border-radius: 10px;
+  background-color: rgba(41, 34, 34, 0.444); */
+  display: flex;
+  margin: 100px;
+  padding:20px;
+  text-align: start;
+  align-items: center;
+  color:black;
+} 
+
+.bodytext{
+  border-radius: 10px;
+  background-color: rgba(245, 245, 245, 0.534);
+  padding:20px;
+}
+
+.books {
+  background-image: url(stack_of_books.png);
+}
