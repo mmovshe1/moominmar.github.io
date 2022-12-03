@@ -1,13 +1,25 @@
-html,body{
-  background-color: rgb(228, 208, 186);
+html{
+  height: 100%;
+  width: 100%;
+  background-color: #F5E7E1;
   color:black;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 24px;
+  line-height: 30px; */
+  text-align: justify;
+}
+
+body{
+  background-image: url("manybooks.png");
 }
 
 .maincontent{
   display:flex; 
-  flex-direction:row; 
-  justify-content:center;
+  flex-direction:column; 
+  /* margin:200px;
+  margin-top: 100px; */
   min-height:100vh;
   padding:20px;
   text-align: start;
@@ -17,11 +29,15 @@ html,body{
 
 .bodytext{
   border-radius: 10px;
-  background-color: rgba(245, 245, 245, 0.534);
+  margin-top:100px;
   padding:20px;
-  min-width: 200px;
-  width: 25%;
+  width: 200px;
+  background-color: #F5E7E1;
+  color:#5B3847;
+  border:5px solid #5B3847;
+  text-align: justify;
 }
+
 
 .books {
   background-image: url(stack_of_books.png);
