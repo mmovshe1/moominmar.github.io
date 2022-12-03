@@ -1,13 +1,10 @@
-html{
+html,body{
   background-color: rgb(228, 208, 186);
   color:black;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body{
-  /* border-radius: 10px;
-  background-color: rgba(41, 34, 34, 0.444); */
+.maincontent{
   display:flex; 
   flex-direction:row; 
   justify-content:center;
